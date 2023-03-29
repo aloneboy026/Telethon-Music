@@ -4,7 +4,7 @@ class Config(object):
     API_ID = int(os.environ.get("APP_ID", "25058013"))
     API_HASH = os.environ.get("API_HASH", "8c03e5160bfcc564c95bbf0e3edd6067")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5648256018:AAHkUfQm7OkZJGL_gboU14XjpNNNKpM3cQ4")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "BQF-Wt0AOIbtP8SlzuKnC5_JRBV1qxQ7nkcXwnCMVdy3LZhimeXGOcZm3icDmVFM8ntyHI_ilen_FQbYElp1E-KX8WD8psKIVdLH94bLMdmS8wAsRfKKHlwW1N-LwOhSxEvVf04vu6s9MAnzxZ_AQ6mLpzKlAyZTQMkG6sIje885OAQqoj2DZKQxc2MI6s5mPUmZJyB7iAkq1OEWPzV5-_LjiwcFahYMXrTETYw2psMfs5q1gEiXiyOZe8EdoUs2d06YsPyUf6Wkw9lgOpi_lL3lhLDjat9bpJxrLDdU8GVdgJRDww0PnpyCT_SPbRXTbKzJ8_fSnGQApecpsR1eRN2YSJDh0wAAAAFhEMyxAA")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOIcBu5o_vSsExjSwj3kq940NxJPHFv-sEqMutuTd42vLw8E3HXh2gNvZoHHe7vgus3zder_IBeuFOUunZfYyot0AC0DuVbQ5sLbQDj_pMl_qnGwCdGrEDl9nRrutJFrsO9BVakyljFFqB_3KXbpNwCAtZzz4Zd11CnRUA0Gjpl9qqQXbKQxqHO-dbAypFIDEGk-zIYBJ-VmrkFPzoE3s2W2tVPC89cDIA0ca7Qmfe6QmcsqNk_aQsttxvK0FmY-IOKhmwt1zIFzIVKHvuAA9yflgAOAHw2Vq0af8hq0w2ndWWwLhfmWha-REzaNJsDNqOovbXFpSiibcJQCiB0OGe3oNjO0=")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", True)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "cutecat_robot")
